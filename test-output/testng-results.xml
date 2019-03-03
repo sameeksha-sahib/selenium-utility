@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Result status: 1]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testPass_SUCCESS_20190303_232917.png'> <img src='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testPass_SUCCESS_20190303_232917.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Result status: 2]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testFail_FAILURE_20190303_232918.png'> <img src='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testFail_FAILURE_20190303_232918.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Result status: 3]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testSkip_SKIP_20190303_232918.png'> <img src='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testSkip_SKIP_20190303_232918.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-03-03T17:59:14Z" name="TestNGSuite" finished-at="2019-03-03T17:59:18Z" duration-ms="4085">
+    <groups>
+    </groups>
+    <test started-at="2019-03-03T17:59:14Z" name="Test" finished-at="2019-03-03T17:59:18Z" duration-ms="4085">
+      <class name="testScripts.TestScreenshot">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScreenshot@306cf3ea]" started-at="2019-03-03T17:59:04Z" name="setUp" finished-at="2019-03-03T17:59:14Z" duration-ms="10009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPass()[pri:0, instance:testScripts.TestScreenshot@306cf3ea]" started-at="2019-03-03T17:59:14Z" name="testPass" finished-at="2019-03-03T17:59:16Z" duration-ms="2011" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Result status: 1]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testPass_SUCCESS_20190303_232917.png'> <img src='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testPass_SUCCESS_20190303_232917.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPass -->
+        <test-method signature="testFail()[pri:2, instance:testScripts.TestScreenshot@306cf3ea]" started-at="2019-03-03T17:59:17Z" name="testFail" finished-at="2019-03-03T17:59:17Z" duration-ms="587" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testScripts.TestScreenshot.testFail(TestScreenshot.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Result status: 2]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testFail_FAILURE_20190303_232918.png'> <img src='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testFail_FAILURE_20190303_232918.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFail -->
+        <test-method signature="testSkip()[pri:0, instance:testScripts.TestScreenshot@306cf3ea]" started-at="2019-03-03T17:59:18Z" name="testSkip" finished-at="2019-03-03T17:59:18Z" depends-on-methods="testScripts.TestScreenshot.testFail" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestScreenshot.testSkip()[pri:0, instance:testScripts.TestScreenshot@306cf3ea] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestScreenshot.testSkip()[pri:0, instance:testScripts.TestScreenshot@306cf3ea] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[Result status: 3]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testSkip_SKIP_20190303_232918.png'> <img src='/Users/sara/eclipse-workspace/selenium-utility-master/Screenshots/testSkip_SKIP_20190303_232918.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSkip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TestScreenshot@306cf3ea]" started-at="2019-03-03T17:59:18Z" name="tearDown" finished-at="2019-03-03T17:59:18Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.TestScreenshot -->
+    </test> <!-- Test -->
+  </suite> <!-- TestNGSuite -->
+</testng-results>

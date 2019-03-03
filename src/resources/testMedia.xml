@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNGSuite" parallel="false">
+	<parameter name="webURL" value="https://tekeye.uk/html/html5-video-test-page" />
+	<parameter name="webBrowser" value="safari" />
+	<test name="Test">
+		<classes>
+			<class name="testScripts.TestMedia" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

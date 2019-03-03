@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="webURL" value="https://www.google.com/"/>
+  <parameter name="webBrowser" value="chrome"/>
+  <listeners>
+    <listener class-name="utility.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testScripts.TestScreenshot">
+        <methods>
+          <include name="testFail"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSkip"/>
+        </methods>
+      </class> <!-- testScripts.TestScreenshot -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestNGSuite] -->
