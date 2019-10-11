@@ -11,8 +11,8 @@ Setup:
 6. Download Gecko driver: https://github.com/mozilla/geckodriver/releases and keep the .exe in the project folder.
 7. Download Opera driver: https://github.com/operasoftware/operachromiumdriver/releases and keep the opera driver folder in the project folder 
 
-Note: On windows folder path contains "\" and on Mac folder path contains "/".
-Therefore, change slashes according to our machine in files in folder utility: ExcelExportAndFileIO.java, Screenshot.java
+Note: On windows folder path contains "\\" and on Mac folder path contains "/".
+Therefore, change slashes according to your machine in files in folder utility: ExcelExportAndFileIO.java, Screenshot.java
 Platform.java
 
 8. Run .xml files as TestNG and see test output.
