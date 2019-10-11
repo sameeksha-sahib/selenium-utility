@@ -1,4 +1,4 @@
-#Sample selenium-utility project:
+# Sample selenium-utility project:
 
 This is a java based sample project with examples to show how to integrate Screenshot with TestNG report, Excel IO, Media library, Android Gesture and coordinate mapper to map CSS coordinates to physical coordinates of android device.
 
